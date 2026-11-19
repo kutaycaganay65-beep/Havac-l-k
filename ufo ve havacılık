@@ -1,0 +1,21 @@
+
+Bu yaklaşım, aracın hem yoğun alt atmosferde hem de yüksek irtifa geçişlerinde minimum termal ve mekanik dirençle hareket etmesine olanak tanır.
+​3. İTKİ, MANEVRA VE 6-DoF YÖNELİM MİMARİSİ
+​3.1. Vektörel İtki ve Ani Yön Değiştirme (High-G Agility)
+​Klasik kontrol yüzeyleri (kanatçık, irtifa dümeni) yerine, gövde çevresine simetrik yerleştirilmiş çok eksenli vektörel itki nozulları ve manyetik akış yönlendiriciler kullanılır.
+​Bu yapı, geleneksel hava araçlarının dönüş yarıçapı kısıtlamalarını ortadan kaldırarak ani duruş, havada asılı kalma (hover) ve keskin açılı yörünge değişimlerine imkan tanır.
+​3.2. Kuaterniyon Tabanlı 6-DoF Uçuş Kontrolü
+​Aracın 3 boyutlu uzaydaki yönelimi, gimbal lock riskini sıfırlayan birim kuaterniyonlar (\mathbf{q} = [q_0, q_1, q_2, q_3]^T) üzerinden gerçek zamanlı hesaplanır.
+​4444 Matris Senkronizasyonu: Sensör füzyonu (IMU, optik/Lidar, radar altimetre) ve itki tepkisi arasındaki gecikme mikrosaniye seviyesinde tutularak yüksek hızlı manevralarda mutlak kararlılık (0=0 denge durumu) korunur.
+​4. YAPISAL TASARIM VE AVİYONİK ALTYAPI
+​4.1. Kompozit Bal Peteği (Honeycomb) ve Termal Baryer
+​Gövde Malzemesi: Yüksek mukavemet/ağırlık oranına sahip Grafen-Titanyum takviyeli bal peteği (honeycomb) çekirdek yapısı, hem aşırı G kuvvetlerine hem de hipersonik sürtünme ısısına karşı yapısal bütünlük sağlar.
+​Düşük Radar Kesit Alanı (RCS): Gövde geometrisi ve yüzey kaplaması, elektromanyetik dalgaları sönümleyecek ve dağıtacak şekilde optimize edilmiştir.
+​4.2. Bare-Metal Aviyonik Çekirdek (0xFFFFFFFF)
+​İşletim sistemi kaynaklı kesintileri (interrupt latency) ortadan kaldırmak amacıyla uçuş kritik tüm alt sistemler doğrudan donanım seviyesinde C99 ve Assembly ile kodlanmıştır.
+​Yer kontrol istasyonu ile haberleşme, CRC-16 hata korumalı, düşük bant genişlikli ikili (binary) telemetri çerçeveleri üzerinden gerçekleştirilir.
+​5. GITHUB VE KAMUOYU PAYLAŞIM REHBERİ
+​Bu dokümanı portfolyonuzda veya teknik paylaşımlarınızda kullanırken şu yapıyı izlemeniz önerilir:
+​1. Dosya Konumu: Mevcut GitHub deponuzda docs/proje-kizilelma-u.md adıyla yayınlayabilirsiniz.
+​2. Görsel Entegrasyon: Daha önce hazırlanan KIZILELMA-U konsept görsellerini docs/images/ klasörüne ekleyip bu dokümana bağlayarak teknik sunumu görsel olarak güçlendirebilirsiniz.
+​3. Referans Bağlantısı: README.md dosyanızın "Kavramsal Ar-Ge ve İleri Konseptler" bölümünden bu rapora doğrudan bağlantı verebilirsiniz.
