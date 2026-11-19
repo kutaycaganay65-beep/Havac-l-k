@@ -1,0 +1,15 @@
+HAVACILIK VE UZAY TEKNOLOJİLERİ: PORTFOLYO ÖZETİ, AERODİNAMİK ANALİZ VE TEKNİK PAYLAŞIM RAPORU
+​Hazırlayan / Baş Mimar: Furkan Kutay Muhammed Çağanay
+Konum: Ankara, Türkiye
+GitHub Portfolyosu: github.com/kutaycaganay65-beep
+Teknik Yaklaşım: Zero-Dependency (Dış Bağımsızlıktan Arınmış Mimari) • Deterministik Zamanlama • Cd \to 0.0 Düşük Sürükleme Optimizasyonu
+​BÖLÜM 1: GENEL PORTFOLYO ÖZETİ (GITHUB & PROFESYONEL SUNUM METNİ)
+​Vizyon ve Mühendislik Yaklaşımı
+​Makine mühendisliği, düşük seviyeli gömülü yazılım geliştirme (C99 / Assembly) ve sistem optimizasyonu altyapısını havacılık ve savunma teknolojileri odağında birleştiren bütüncül bir mühendislik yaklaşımı benimsenmektedir. Tüm yazılımsal ve fiziksel modeller; gereksiz aracı katmanlardan arındırılmış (Zero-Dependency), yüksek determinizme sahip, doğrudan donanıma ve temel fizik yasalarına dayanan yapılar üzerine kurgulanmaktadır.
+​Temel Yetkinlik Alanları
+​1. Uçuş Dinamiği ve Kinematik Modelleme: Sabit kanatlı platformlar ve İHA'lar için 6 serbestlik dereceli (6-DoF) rijit cisim hareket denklemlerinin (Newton-Euler) sayısal çözümü, kuaterniyon tabanlı yönelim hesaplamaları ve RK4 integrasyonu.
+​2. Aerodinamik ve Akışkanlar Mekaniği: Kanat profilleri ve gövde geometrileri için taşıma (C_L), sürükleme (C_D) ve kaldırma/sürükleme verimliliği (L/D) analizleri; sınır tabaka kontrolü ve yüksek hızlı rejimlerde sürükleme minimizasyonu.
+​3. Aviyonik ve Gömülü Telemetri Sistemleri: Düşük gecikmeli sensör veri işleme, sabit çerçeveli ikili (binary) telemetri paketleme ve CRC-16 hata kontrol protokolleri.
+​BÖLÜM 2: AERODİNAMİK PERFORMANS VE YÖRÜNGE ANALİZ RAPORU
+​2.1. Uçuş Dinamiği ve Sayısal Çözüm Altyapısı
+​Gövde eksen takımında (x_b, y_b, z_b) tanımlanan 13 elemanlı durum vektörü \mathbf{x} = [x, y, z, u, v, w, q_0, q_1, q_2, q_3, p, q, r]^T, \Delta t = 0.005\,\text{s} zaman adımıyla 4. Derece Runge-Kutta (RK4) çözücüsü üzerinden entegre edilmektedir.
