@@ -1,0 +1,11 @@
+UÇAKLI HAVACILIK VE SABİT KANATLI SİSTEM MİMARİSİ
+​Baş Mimar / Proje Lideri: Furkan Kutay Muhammed Çağanay
+Konum: Ankara, Türkiye
+Sistem Altyapısı: MDC v4.44 • Bare-Metal (0xFFFFFFFF) • Zero-Dependency
+Aerodinamik Hedef: Cd \to 0.0 Sürtünmesiz Akış & Yüksek L/D Verimliliği
+​1. KAVRAMSAL ÇERÇEVE VE SABİT KANAT DİNAMİĞİ
+​Uçaklı Havacılık, aerodinamik kaldırma kuvvetini doğrudan ileri yönlü hız ve kanat profili geometrisinden üreten sabit kanatlı platformların (taktik/stratejik İHA'lar, insansız muharip uçaklar ve yüksek hızlı seyir platformları) tasarım, kontrol ve otonom operasyon mimarisini kapsar.
+​Döner kanatlı sistemlerin aksine sabit kanatlı uçak mimarisi; uzun menzil, yüksek seyir hızı, yüksek faydalı yük kapasitesi ve üstün enerji verimliliği sunar. Bu mimari, dış yazılım bağımlılıklarından tamamen arınmış (Zero-Dependency) bare-metal kontrol çekirdeğiyle birleştirilerek maksimum uçuş kararlılığına ulaştırılır.
+​2. AERODİNAMİK OPTİMİZASYON VE AKIŞKANLAR MEKANİĞİ (Cd \to 0.0)
+​Sabit kanatlı hava araçlarında performansın temel belirleyicisi kaldırma/sürükleme oranıdır (L/D). Uçaklı havacılık mimarisinde sürükleme bileşenleri üç ana eksende minimize edilir:
+​2.1. Kanat Profili ve Sınır Tabaka Yönetimi
