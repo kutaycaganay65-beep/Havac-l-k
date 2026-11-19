@@ -1,0 +1,15 @@
+BÜTÜNCÜL HAVACILIK VE UZAY KÜLLİYATI (MASTER AVIATION ARCHITECTURE)
+​Baş Mimar / Proje Lideri: Furkan Kutay Muhammed Çağanay
+Konum: Ankara, Türkiye
+GitHub Portfolyosu: github.com/kutaycaganay65-beep
+Çekirdek Mimari: MDC v4.44 • Bare-Metal (0xFFFFFFFF) • Zero-Dependency
+Aerodinamik ve Operasyonel İlke: Cd \to 0.0 Sürtünmesiz Akış & 0=0 Tam Sistem Dengesi
+​GİRİŞ: DÖRT EKSENLİ HAVACILIK EKOSİSTEMİ
+​Bu külliyat; geleneksel sabit kanatlı uçuş mekaniğinden enerji santrali entegreli otonom ağlara, hipersonik atmosferik geçişlerden UAP/UFO sınıfı magnetohidrodinamik platformlara kadar tüm havacılık ve uzay disiplinlerini tek bir deterministik mühendislik omurgasında birleştirir.
+​BÖLÜM 1: UÇAKLI HAVACILIK (SABİT KANATLI VE BWB SİSTEMLER)
+​İleri yönlü hız ve kanat profili geometrisinden kaldırma kuvveti üreten, uzun menzilli ve yüksek faydalı yük kapasiteli hava araçları mimarisidir.
+​Aerodinamik Optimizasyon: Süperkritik laminer akış profilleri, yüksek açıklık oranı (AR = b^2 / S) ve kanat-gövde bütünleşik (Blended Wing Body - BWB) tasarımla parazit ve indüklenmiş sürüklemenin (C_{Di} = \frac{C_L^2}{\pi \cdot AR \cdot e}) en aza indirilmesi.
+​6-DoF Kararlılık ve Kontrol: Yalpa (roll), yunuslama (pitch) ve sapma (yaw) eksenlerinde elektro-mekanik eyleyiciler ve birim kuaterniyon (\mathbf{q} = [q_0, q_1, q_2, q_3]^T) tabanlı RK4 çözücüsü ile yüksek hızlı kararlılık.
+​Malzeme ve Üretim: Kompozit bal peteği (honeycomb) yapısal kirişler ve otonom 3D metal/kompozit üretim hatlarıyla mikron hassasiyetli parça bütünlüğü.
+​BÖLÜM 2: SANTRALLİ HAVACILIK (ENERJİ VE KOMUTA AĞI ENTEGRASYONU)
+​Hava araçlarının üzerindeki ağır yakıt ve batarya yüklerini azaltarak enerji üretimini, hızlı şarj/hidrojen değişimini ve otonom filo yönetimini merkezi enerji-komuta santrallerinde (Aerospace Hubs) toplayan ekosistemdir.
