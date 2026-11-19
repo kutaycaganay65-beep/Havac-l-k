@@ -1,0 +1,10 @@
+SANTRALLİ HAVACILIK MİMARİSİ (HUB-BASED AEROSPACE & ENERGY GRID)
+​Baş Mimar / Proje Lideri: Furkan Kutay Muhammed Çağanay
+Konum: Ankara, Türkiye
+Sistem Altyapısı: MDC v4.44 • Bare-Metal (0xFFFFFFFF) • Zero-Dependency
+Aerodinamik ve Enerji Hedefi: Cd \to 0.0 Sürtünmesiz Akış & Merkezi Enerji/Komuta Senkronizasyonu
+​1. KAVRAMSAL ÇERÇEVE VE TANIM
+​Santralli Havacılık, hava araçlarının (İHA filoları, dikey kalkış-iniş yapabilen UAP/VTOL platformları ve elektrikli/hibrit hava taksileri) enerji beslemesi, otonom görev planlaması, bakım-onarım lojistiği ve gerçek zamanlı veri işleme süreçlerinin merkezi yüksek kapasiteli enerji ve komuta santrallerine (Aerospace Hubs) entegre edildiği bütüncül bir havacılık ekosistemidir.
+​Bu mimari, hava platformlarının üzerindeki ağır yakıt veya devasa batarya yüklerini azaltarak uçuş süresini ve manevra kabiliyetini maksimize etmeyi; enerji üretimi, hızlı şarj/değişim ve yüksek hızlı veri aktarımını yer tabanlı veya stratejik konumlu otonom santrallerde toplamayı hedefler.
+​2. SİSTEM BİLEŞENLERİ VE TEKNİK MİMARİ
+​2.1. Merkezi Enerji ve İtki Besleme Santralleri
